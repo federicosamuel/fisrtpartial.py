@@ -1,0 +1,2 @@
+# fisrtpartial.py
+description
