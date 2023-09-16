@@ -1,0 +1,33 @@
+#STEP1
+def robot():
+  print("Give me your time iteration1.")
+  iteration1 = input()
+  print("Give me the distance to advance.")
+  distance = input ()
+  VELOCITY1 = int(distance)/int(iteration1)
+  print("Your velocity1 is=",VELOCITY1)
+
+  print("Give me your time iteration2.")
+  iteration2 = input()
+  print("Give me the distance to advance.")
+  distance = input()
+  VELOCITY2 = int(distance)/int(iteration2)
+  print("Your velocity 2 is",VELOCITY2)
+
+  print("Give me your time iteration3.")
+  iteration3 = input()
+  print("Give me the distance to advance.")
+  distance = input()
+  VELOCITY3= int(distance)/int(iteration3)
+  print("Your velocity3 is", VELOCITY3)
+  
+  print("Give me your velocity1.")
+  velocity1 = input()
+  print("Give me your velocity2.")
+  velocity2 = input()
+  print("Give me your velocity3")
+  velocity3 = input()
+  AVERAGEVELOCITY = int(velocity1)*int(velocity2)*int(velocity3)/int(3)
+  print ("Your average velocity is",AVERAGEVELOCITY)
+  
+robot()
