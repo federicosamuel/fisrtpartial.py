@@ -1,0 +1,29 @@
+def Diet():
+  print("Hi there, I will help you with you to follow a healthy diet.")
+  print("what is your age ?")
+  age = int(input())
+  print("How is your physical activity?")
+  physical = input()
+  
+  if age <= 18:
+    print("We recomend a highly carbohydrate diet.")
+   
+
+  elif age > 18 and age < 35:
+    print("We recommend a high proetin and lower carbohydrate diet.")
+   
+    
+  elif age > 35:
+    print("We recommend a low sugar diet.")
+   
+     
+    
+  if physical == "sedentary" and age == 18 and age < 30:
+    print("You need aeorbic excercises")
+
+  elif physical == "moderate" and age == 30 and age < 30:
+    print("You need aeorbic excercises")
+  else:
+    print("Well! see you next time buddy!!")
+
+Diet()
