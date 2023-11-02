@@ -1,7 +1,9 @@
-print("On what day were you born?")
+https://replit.com/join/tjlazqhntg-federicoolmos
+
+print("What is the day in which you were born??")
 day = int(input())
 
-print("On what month were you born?")
+print("What is the month in which you were born??")
 month = input()
 
 if month == "january":
@@ -41,4 +43,4 @@ elif month == "december":
   zodiac = 'Saggitarius' if day < 22 else 'Capricorn'
   print(zodiac)
 else:
-  print("Invalid answers, try again.")
+  print("You typed in something wrong, give it a second try.")
